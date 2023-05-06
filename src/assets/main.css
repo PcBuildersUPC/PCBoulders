@@ -39,3 +39,174 @@ body{
   background-color: #e6a503;
   font-family: 'Roboto';
 }
+
+.biblioteca-titulo {
+  font-size: 4rem; /* ajusta el tamaño del texto según tus necesidades */
+  font-weight: bold; /* agrega negrita al texto */
+  margin-bottom: 2rem; /* agrega un espacio después del título */
+
+}
+
+
+
+.biblioteca {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FCE7D9; /* Color piel */
+  padding: 2rem;
+  margin-bottom: 2rem;
+  color: black; /* Agregar color negro al texto */
+
+}
+
+.biblioteca-filtros {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.biblioteca-titulo-filtros {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.biblioteca-filtros-subtitulo {
+  margin-bottom: 1rem;
+}
+
+.biblioteca-filtros-subtitulo h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.biblioteca-filtros-subtitulo ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.biblioteca-filtros-subtitulo ul li {
+  margin-bottom: 0.5rem;
+}
+
+.biblioteca-filtros-subtitulo-duracion {
+  display: flex;
+  align-items: center;
+}
+
+.biblioteca-filtros-subtitulo-duracion h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+
+
+
+.biblioteca-filtros-subtitulo ul li input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.biblioteca-filtros-subtitulo ul li label {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.seccion-procesadores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 715px;
+  background-color: #FCE7D9; /* Color piel */
+  position: relative;
+  width: 140%; /* Ajustar ancho a 120% */
+  margin: 0 -10%; /* Agregar margen lateral negativo */
+  margin-top: 12rem;
+  color:#000000;
+}
+
+
+
+.procesadores-titulo {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.procesadores-contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:60px;
+}
+.procesadores-imagen img {
+  width: 100%;
+}
+
+.procesadores-imagen {
+  width: 20%;
+  margin-right: 60px;
+
+}
+
+.procesadores-texto {
+  width: 60%;
+  font-size: 17px;
+}
+
+.procesadores-separador {
+  width: 90%;
+  border-top: 3px solid #000;
+  margin-bottom: 4rem;
+}
+
+
+.procesadores-pie {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 30%;
+  align-items: center;
+}
+
+.procesadores-pie-texto h1 {
+  margin-bottom: 10px;
+}
+
+.procesadores-pie-texto + .procesadores-imagen {
+  margin-left: 2rem;
+}
+
+.seccion-procesadores::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: -1;
+}
+.seccion-procesadores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.subtitulo-procesadores {
+  margin-bottom: 30px;
+}
+.procesadores-texto p {
+  text-align: justify;
+  margin-left: -20px;
+}

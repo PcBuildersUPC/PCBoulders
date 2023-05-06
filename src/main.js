@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
+
 import App from './App.vue'
 import router from './router'
 
@@ -19,8 +20,11 @@ import RadioButton from 'primevue/radiobutton';
 import InputText from 'primevue/inputtext';
 import FocusTrap from 'primevue/focustrap';
 import ConfirmDialog from 'primevue/confirmdialog';
-
-
+import DataTable from 'primevue/datatable';
+import Column from 'primevue/column';
+import Toolbar from 'primevue/toolbar';
+import Avatar from "primevue/avatar";
+import Menubar from "primevue/menubar";
 
 import './assets/main.css'
 
@@ -39,6 +43,12 @@ app.component('RadioButton', RadioButton)
 app.component('InputText', InputText)
 app.component('FocusTrap', FocusTrap)
 app.component('ConfirmDialog', ConfirmDialog)
+app.component('pv-table',DataTable)
+app.component('pv-colum',Column)
+app.component('pv-toolbar',Toolbar)
+app.component('pv-menubar',Menubar)
+app.component('pv-avatar',Avatar)
+
 
 
 app.mount('#app')
