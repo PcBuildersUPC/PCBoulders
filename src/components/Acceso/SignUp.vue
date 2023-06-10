@@ -76,3 +76,9 @@ const usuario = ref('');
     </div>
   </div>
 </template>
+
+<style>
+#app { 
+  margin: 0 auto ; 
+}
+</style>

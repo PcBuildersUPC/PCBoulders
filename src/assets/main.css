@@ -3,7 +3,7 @@
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+
 
   font-weight: normal;
 }
@@ -29,7 +29,7 @@ a,
   }
 
   #app {
-    padding: 0 2rem;
+    padding: 0 ;
   }
 }
 /*ALYNE*/
@@ -52,7 +52,6 @@ body{
 .biblioteca {
   display: flex;
   flex-wrap: wrap;
-  background-color: #FCE7D9; /* Color piel */
   padding: 2rem;
   margin-bottom: 2rem;
   color: black; /* Agregar color negro al texto */
@@ -128,9 +127,9 @@ body{
   height: 715px;
   background-color: #FCE7D9; /* Color piel */
   position: relative;
-  width: 140%; /* Ajustar ancho a 120% */
-  margin: 0 -10%; /* Agregar margen lateral negativo */
-  margin-top: 12rem;
+  width: 80%; /* Ajustar ancho a 120% */
+
+  margin-top: 2%;
   color:#000000;
 }
 

@@ -43,6 +43,7 @@ const usuario = ref("");
 </template>
 
 <style setup>
+
 .carta {
   padding: 2rem;
   background-color: #fff;

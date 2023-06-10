@@ -30,6 +30,7 @@
     display: flex;
     background-color: #f2f2f2;
     color: #333333;
+ 
   }
   
   .sidebar {

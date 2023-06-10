@@ -1,4 +1,5 @@
 <template>
+    <toolbarContent />
 <div>
 
     <pv-menubar class="sticky bg-primary">
@@ -100,7 +101,7 @@
 <script >
 
 export default {
-    name: "toolbarContent"
+    name: "toolBarComponent"
 }
 
 </script>
